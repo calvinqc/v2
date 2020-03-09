@@ -48,6 +48,8 @@ class Experience extends Component {
                 {work.description[3]}
               </li>
             </ul>
+            <br />
+            <br />
           </div>
         );
       });
@@ -99,15 +101,7 @@ class Experience extends Component {
           </li>
         );
       });
-      var cloud = this.props.data.cloud.map(skills => {
-        var className = 'bar-expand ' + skills.name.toLowerCase();
-        return (
-          <li key={skills.name}>
-            <span style={{ width: skills.level }} className={className}></span>
-            <em>{skills.name}</em>
-          </li>
-        );
-      });
+
       // End of init technical skills
     }
 
@@ -162,20 +156,6 @@ class Experience extends Component {
           <div className="nine columns main-col">
             <div className="bars">
               <ul className="skills">{mobile}</ul>
-            </div>
-          </div>
-        </div>
-
-        <div className="row skill">
-          <div className="three columns header-col">
-            <h1>
-              <span>Cloud</span>
-            </h1>
-          </div>
-
-          <div className="nine columns main-col">
-            <div className="bars">
-              <ul className="skills">{cloud}</ul>
             </div>
           </div>
         </div>

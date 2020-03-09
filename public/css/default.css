@@ -486,7 +486,7 @@ ol ul li {
 }
 li {
   color: rgb(136, 146, 176);
-  font: 20px/24px Calibre, 'San Francisco', 'SF Pro Text', -apple-system,
+  font: 18px/24px Calibre, 'San Francisco', 'SF Pro Text', -apple-system,
     system-ui, BlinkMacSystemFont, Roboto;
   line-height: 18px;
   margin-bottom: 12px;

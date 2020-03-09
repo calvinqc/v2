@@ -41,7 +41,7 @@ class About extends Component {
             </p>
             <p> Here is my comprehensive & updated Experience </p>
             <a onClick={this.onResumeClick} className="button">
-              <i className="fa fa-download"></i> Download Experience
+              <i className="fa fa-download"></i> Download My Resume
             </a>
           </div>
         </div>

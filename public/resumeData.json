@@ -146,6 +146,14 @@
       {
         "name": "Git",
         "level": "85%"
+      },
+      {
+        "name": "AWS",
+        "level": "40%"
+      },
+      {
+        "name": "Google Cloud",
+        "level": "60%"
       }
     ],
     "database": [
@@ -160,16 +168,6 @@
       {
         "name": "MongoDB",
         "level": "80%"
-      }
-    ],
-    "cloud": [
-      {
-        "name": "AWS",
-        "level": "40%"
-      },
-      {
-        "name": "Google Cloud",
-        "level": "60%"
       }
     ]
   },

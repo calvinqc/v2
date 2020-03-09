@@ -271,8 +271,8 @@ ul#nav li.current a {
 }
 #about .profile-pic {
   position: relative;
-  width: 325px;
-  height: 325px;
+  width: 275px;
+  height: 275px;
   border-radius: 100%;
 }
 #about .contact-details {
@@ -415,7 +415,7 @@ li .Experience-desc {
 
   margin: 0;
   padding-right: 24px;
-  background: rgb(100, 255, 218);
+  background: rgb(204, 214, 246);
   display: inline-block;
   height: 42px;
   line-height: 42px;
