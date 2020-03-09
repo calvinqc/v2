@@ -1,0 +1,198 @@
+{
+  "main": {
+    "name": "Calvin Nguyen",
+    "occupation": "Backend Software Engineer",
+    "description": "A senior student with 2+ years working with Node.js/MongoDB. Strong experience building Web/iOS apps and has a great Payment background.",
+    "image": "profile.jpg",
+    "bio": "Hi, I'm Calvin, a self-motivated undergraduate senior at SJSU, San Jose, CA. I've experienced in both web & mobile (Android, iOS) platforms, focusing on full-stack web development. I love to design and architect web back-end API and databases for scalability.",
+    "contactmessage": "My inbox is always open. Whether for a potential project or just to say hi, I'll try my best to answer your email!",
+    "email": "calvin.nvqc@gmail.com",
+    "phone": "(408) 318-2800",
+    "address": {
+      "city": "San Jose",
+      "state": "CA",
+      "zip": "95126"
+    },
+    "website": "https://www.calvinqc.com",
+    "resumedownload": "./Calvin_Nguyen_resume.pdf",
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/calvin.nvqc",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "twitter",
+        "url": "https://twitter.com/calvin_qc",
+        "className": "fa fa-twitter"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/calvinqc/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/calvin.qc/",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "http://github.com/calvinqc",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "Experience": {
+    "education": [
+      {
+        "school": "San Jose State University",
+        "degree": "Bachelor of Science in Software Engineering",
+        "graduated": "December 2020",
+        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      },
+      {
+        "school": "Berkeley City College",
+        "degree": "A.S. in Mathematics specialized in C.I.S",
+        "graduated": "May 2017",
+        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+      }
+    ],
+    "work": [
+      {
+        "company": "PayPal Inc.",
+        "title": "iOS Engineering Intern",
+        "years": "June 2019 - Aug. 2019",
+        "description": [
+          "Pioneered iOS SDK with Bluetooth, Wi-Fi APIs for PayPal Here products",
+          "Developed both iOS/Android app to communicate with mPOS devices",
+          "Boosted testing experience of mPOS device faster by 3x in iOS and Android",
+          "Hands-on card processing experience with EMV/Contactless/Magstripe cards"
+        ]
+      },
+      {
+        "company": "A.I. Stealth-mode Startup",
+        "title": "Node.js/iOS Software Engineer",
+        "years": "Dec. 2008 - Present",
+        "description": [
+          "Wrote detailed on-boarding doc, project requirements, & architecture diagrams",
+          "Released 2 versions of web dashboards in MongoDB, Express, React and Node.",
+          "Built/ deployed a Swift prototype to TestFlight",
+          "Utilized Google Cloud for file uploading & App Engine for client/server deployment"
+        ]
+      },
+      {
+        "company": "PayPal Inc.",
+        "title": "Full-stack Engineering Intern",
+        "years": "June. 2018 - Aug 2018",
+        "description": [
+          "Worked with Director of People Engagement Team to build/ deploy an event app",
+          "Intensive backend development in Node.js, PostgreSQL that contains 3000+ LOC",
+          "Designed/developed UI using Apache Cordova, HTML/CSS/JavaScript",
+          "Collected data of 2000+ employees to enhance on-campus experience"
+        ]
+      },
+      {
+        "company": "UC Berkeley",
+        "title": "CS 61B Lab Assistant",
+        "years": "Aug. 2016 - May 2017",
+        "description": [
+          "Assisted students in lab & office hours in a Data Structure course of 900+ students",
+          "Enhanced analytical & debugging skills while helping students solve problems",
+          "Tutored 20+ students per week with homework, labs and projects",
+          "Work Primarily with Java 8"
+        ]
+      }
+    ],
+    "frontend": [
+      {
+        "name": "ReactJs",
+        "level": "60%"
+      },
+      {
+        "name": "HTML/CSS/Javascript",
+        "level": "50%"
+      }
+    ],
+    "backend": [
+      {
+        "name": "Node.js",
+        "level": "90%"
+      },
+      {
+        "name": "mochaJS",
+        "level": "25%"
+      },
+      {
+        "name": "Python",
+        "level": "50%"
+      },
+      {
+        "name": "Java",
+        "level": "70%"
+      }
+    ],
+    "mobile": [
+      {
+        "name": "Swift",
+        "level": "70%"
+      },
+      {
+        "name": "Android",
+        "level": "50%"
+      }
+    ],
+    "tool": [
+      {
+        "name": "Git",
+        "level": "85%"
+      }
+    ],
+    "database": [
+      {
+        "name": "POSTGRESQL",
+        "level": "30%"
+      },
+      {
+        "name": "MYSQL",
+        "level": "50%"
+      },
+      {
+        "name": "MongoDB",
+        "level": "80%"
+      }
+    ],
+    "cloud": [
+      {
+        "name": "AWS",
+        "level": "40%"
+      },
+      {
+        "name": "Google Cloud",
+        "level": "60%"
+      }
+    ]
+  },
+  "work": {
+    "projects": [
+      {
+        "title": "M.E.R.N Template",
+        "category": "A template for building a fast MERN codebase",
+        "image": "mern.jpg",
+        "url": "https://github.com/calvinqc/MERN-template"
+      },
+      {
+        "title": "Sorting Algorithm",
+        "category": "Java Sorting Algorithm Implementation",
+        "image": "sorting.jpg",
+        "url": "https://github.com/calvinqc/Nodejs-Server-Template"
+      },
+      {
+        "title": "Degree Planning Assistant",
+        "category": "A web app that helps students plan their college degree.",
+        "image": "plan.jpg",
+        "url": "https://github.com/ellamaolson/Degree-Planning-Assistant"
+      }
+    ]
+  }
+}
