@@ -1,4 +1,4 @@
-export const HOST = 'http://localhost:8080';
+export const HOST = 'https://calvinqc.appspot.com';
 
 // User Token
 export const USER_TOKEN = 'USER_TOKEN';

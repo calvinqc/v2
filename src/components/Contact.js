@@ -10,7 +10,8 @@ class Contact extends Component {
     super();
     this.state = {
       email: '',
-      password: '',
+      subject: '',
+      message: '',
     };
 
     this.onChange = this.onChange.bind(this);
@@ -38,9 +39,10 @@ class Contact extends Component {
       var state = this.props.data.address.state;
       var zip = this.props.data.address.zip;
       var phone = this.props.data.phone;
-      var email = this.props.data.email;
-      var message = this.props.data.contactmessage;
+      // var email = this.props.data.email;
+      // var message = this.props.data.contactmessage;
     }
+    const { email, subject, message } = this.state || {};
 
     return (
       <section id="contact">
@@ -66,7 +68,7 @@ class Contact extends Component {
                   </label>
                   <input
                     type="text"
-                    defaultValue=""
+                    value={email}
                     size="35"
                     id="contactEmail"
                     name="contactEmail"
@@ -78,7 +80,7 @@ class Contact extends Component {
                   <label htmlFor="contactSubject">Subject</label>
                   <input
                     type="text"
-                    defaultValue=""
+                    value={subject}
                     size="35"
                     id="contactSubject"
                     name="contactSubject"
@@ -93,6 +95,7 @@ class Contact extends Component {
                   <textarea
                     cols="50"
                     rows="15"
+                    value={message}
                     id="contactMessage"
                     name="contactMessage"
                   ></textarea>

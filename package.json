@@ -1,6 +1,7 @@
 {
-  "name": "personalportfolio",
-  "version": "0.1.0",
+  "name": "v2",
+  "author": "Calvin Nguyen",
+  "version": "1.0.0",
   "private": true,
   "dependencies": {
     "jquery": "^3.2.1",
