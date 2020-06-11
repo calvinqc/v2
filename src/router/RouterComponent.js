@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { connect } from 'react-redux';
+
 import { BrowserRouter as Router } from 'react-router-dom';
 import RoutesComponent from './RoutesComponent';
 class RouterComponent extends Component {
@@ -14,4 +14,4 @@ class RouterComponent extends Component {
     );
   }
 }
-export default connect()(RouterComponent);
+export default RouterComponent;

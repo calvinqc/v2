@@ -77,9 +77,12 @@ class Header extends Component {
             <h3 id="hello"> Hello, my name is</h3>
             <h1 className="responsive-headline">{name}</h1>
             <h3>
-              {/* <span> */}
-              I'm a {occupation} based <span>{city}</span>. {description}
-              {/* </span> */}
+              I'm a graduating student with{' '}
+              <span>3 years of extensive full-stack development </span>at PayPal
+              & Startup, focusing on web services, scaling, database, and
+              infrastructure. Capable of picking up new skills to ship scaling
+              apps to production quickly. Seeking for Fall 2020 Co-op and
+              Full-time Software Engineering starting Jan 2021.
             </h3>
             <hr />
             <ul className="social">{networks}</ul>

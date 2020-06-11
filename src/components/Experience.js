@@ -83,7 +83,7 @@ class Experience extends Component {
           </li>
         );
       });
-      var tool = this.props.data.tool.map(skills => {
+      var DevOps = this.props.data.DevOps.map(skills => {
         var className = 'bar-expand ' + skills.name.toLowerCase();
         return (
           <li key={skills.name}>
@@ -163,13 +163,13 @@ class Experience extends Component {
         <div className="row skill">
           <div className="three columns header-col">
             <h1>
-              <span>Tools</span>
+              <span>DevOps</span>
             </h1>
           </div>
 
           <div className="nine columns main-col">
             <div className="bars">
-              <ul className="skills">{tool}</ul>
+              <ul className="skills">{DevOps}</ul>
             </div>
           </div>
         </div>

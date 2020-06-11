@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Experience from '../Calvin_Nguyen_resume.pdf';
+import Experience from '../Calvin_Nguyen_Software_Engineer.pdf';
 class About extends Component {
   onResumeClick() {
     window.open(Experience);

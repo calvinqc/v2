@@ -1,7 +1,4 @@
 import React, { Component } from 'react';
-import { connect } from 'react-redux';
-import { bindActionCreators } from 'redux';
-import { Redirect, withRouter } from 'react-router-dom';
 
 import ReactGA from 'react-ga';
 import $ from 'jquery';
@@ -11,7 +8,6 @@ import Footer from '../components/Footer';
 import About from '../components/About';
 import Experience from '../components/Experience';
 import Contact from '../components/Contact';
-import Work from '../components/Work';
 
 class HomePage extends Component {
   constructor(props) {
@@ -48,25 +44,10 @@ class HomePage extends Component {
         <Header data={resumeData.main} />
         <About data={resumeData.main} />
         <Experience data={resumeData.Experience} />
-        <Work data={resumeData.work} />
-        <Contact data={resumeData.main} />
+        {/* <Contact data={resumeData.main} /> */}
         <Footer data={resumeData.main} />
       </div>
     );
   }
 }
-
-// Store
-function mapStateToProps(state) {
-  return {
-    user: state.user,
-  };
-}
-
-function matchDispatchToProps(dispatch) {
-  return bindActionCreators({}, dispatch);
-}
-export default connect(
-  mapStateToProps,
-  matchDispatchToProps
-)(withRouter(HomePage));
+export default HomePage;

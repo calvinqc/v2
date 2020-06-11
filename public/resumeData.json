@@ -1,20 +1,19 @@
 {
   "main": {
     "name": "Calvin Nguyen",
-    "occupation": "Backend Software Engineer",
-    "description": "A senior student with 2+ years working with Node.js/MongoDB. Strong experience building Web/iOS apps and has a great Payment background.",
+    "occupation": "Full-stack Software Engineer",
+    "description": "Graduating student with 3 years of extensive full-stack development at PayPal & Startup. Capable of picking up new skills to ship scaling apps to production quickly. Seeking for Fall 2020 Co-op and Full-time Software Engineering starting Jan 2021.",
     "image": "profile.jpg",
-    "bio": "Hi, I'm Calvin, a self-motivated undergraduate senior at SJSU, San Jose, CA. I've experienced in both web & mobile (Android, iOS) platforms, focusing on full-stack web development. I love to design and architect web back-end API and databases for scalability.",
+    "bio": "Hi, I'm Calvin, a self-motivated undergraduate senior at SJSU, San Jose, CA. I've experienced in both web & mobile (Android, iOS) platforms, focusing on full-stack web development. I love to design and build web services, scale the server, infrastructure and databases.",
     "contactmessage": "My inbox is always open. Whether for a potential project or just to say hi, I'll try my best to answer your email!",
     "email": "calvin.nvqc@gmail.com",
-    "phone": "(408) 318-2800",
     "address": {
       "city": "San Jose",
       "state": "CA",
       "zip": "95126"
     },
     "website": "https://www.calvinqc.com",
-    "resumedownload": "./Calvin_Nguyen_resume.pdf",
+    "resumedownload": "./Calvin_Nguyen_Software_Engineer.pdf",
     "social": [
       {
         "name": "facebook",
@@ -23,7 +22,7 @@
       },
       {
         "name": "twitter",
-        "url": "https://twitter.com/calvin_qc",
+        "url": "https://twitter.com/calvinqc_",
         "className": "fa fa-twitter"
       },
       {
@@ -60,36 +59,48 @@
     ],
     "work": [
       {
+        "company": "imi.ai",
+        "title": "Full-stack Software Engineer",
+        "years": "Dec. 2008 - Present <> Part-time",
+        "description": [
+          "Working directly with CTO to initiate the use of micro-services for managing infrastructure using Golang, Node, gRPC, REST, and Swagger.",
+          "Building a real-time notification for end-to-end users with SocketIO in Node.js and Golang, Redis Pub/Sub, and Cloud Functions for handling multiple uploading files.",
+          "Built/ deployed a Swift prototype to TestFlight",
+          "Created and deployed React &amp; Node on Cloud Storage and Compute Engine using Docker/Nginx, and Webpack."
+        ]
+      },
+      {
         "company": "PayPal Inc.",
-        "title": "iOS Engineering Intern",
-        "years": "June 2019 - Aug. 2019",
+        "title": "Software Engineer",
+        "years": "June 2019 - Aug. 2019 <> Internship",
         "description": [
           "Pioneered iOS SDK with Bluetooth, Wi-Fi APIs for PayPal Here products",
-          "Developed both iOS/Android app to communicate with mPOS devices",
+          "Built iOS libraries to develop EMV, Contactless Card Handler with mPOS devices using Swift.",
           "Boosted testing experience of mPOS device faster by 3x in iOS and Android",
           "Hands-on card processing experience with EMV/Contactless/Magstripe cards"
         ]
       },
       {
-        "company": "A.I. Stealth-mode Startup",
-        "title": "Node.js/iOS Software Engineer",
-        "years": "Dec. 2008 - Present",
+        "company": "Medium",
+        "title": "Tech Writer",
+        "years": "Oct 2019 - Present <> Part-time",
         "description": [
-          "Wrote detailed on-boarding doc, project requirements, & architecture diagrams",
-          "Released 2 versions of web dashboards in MongoDB, Express, React and Node.",
-          "Built/ deployed a Swift prototype to TestFlight",
-          "Utilized Google Cloud for file uploading & App Engine for client/server deployment"
+          "Publishing articles biweekly, get over 5k+ views and 2k+ reads per month.",
+          "Featured on Top Writer of TheStartup - Largest Medium's publication.",
+          "Received 50+ subscribers to the 'I Grow With Startups' series.",
+          "I wrote about a variety of Tech tutorials, news, tips and tricks on Server-side programming for developers."
         ]
       },
       {
         "company": "PayPal Inc.",
-        "title": "Full-stack Engineering Intern",
-        "years": "June. 2018 - Aug 2018",
+        "title": "Full-stack Software Engineer",
+        "years": "June. 2018 - Aug 2018 <> Internship",
         "description": [
-          "Worked with Director of People Engagement Team to build/ deploy an event app",
-          "Intensive backend development in Node.js, PostgreSQL that contains 3000+ LOC",
+          "Worked directly with Genessa Nannini to build and deploy onCampus, collecting data of on-campus events' involvement.",
+          "Intensive back-end development with Kraken.js, PostgreSQL, and Google Proximity API, Estimote Beacon.",
           "Designed/developed UI using Apache Cordova, HTML/CSS/JavaScript",
-          "Collected data of 2000+ employees to enhance on-campus experience"
+          "Collected data of 2000+ employees to enhance on-campus experience",
+          "Experience with Use-Case design, Class and Sequence diagrams using UML."
         ]
       },
       {
@@ -104,20 +115,18 @@
         ]
       }
     ],
-    "frontend": [
-      {
-        "name": "ReactJs",
-        "level": "60%"
-      },
-      {
-        "name": "HTML/CSS/Javascript",
-        "level": "50%"
-      }
-    ],
     "backend": [
       {
-        "name": "Node.js",
+        "name": "Node.js/Express.js",
         "level": "90%"
+      },
+      {
+        "name": "Go/Echo",
+        "level": "20%"
+      },
+      {
+        "name": "gRPC",
+        "level": "20%"
       },
       {
         "name": "mochaJS",
@@ -125,11 +134,36 @@
       },
       {
         "name": "Python",
-        "level": "50%"
+        "level": "10%"
       },
       {
-        "name": "Java",
+        "name": "Java/Spring",
+        "level": "15%"
+      }
+    ],
+    "frontend": [
+      {
+        "name": "React.js/Redux",
         "level": "70%"
+      },
+      {
+        "name": "HTML/CSS/Javascript",
+        "level": "60%"
+      }
+    ],
+
+    "DevOps": [
+      {
+        "name": "Google Cloud",
+        "level": "85%"
+      },
+      {
+        "name": "AWS",
+        "level": "40%"
+      },
+      {
+        "name": "Docker",
+        "level": "40%"
       }
     ],
     "mobile": [
@@ -142,54 +176,18 @@
         "level": "50%"
       }
     ],
-    "tool": [
-      {
-        "name": "Git",
-        "level": "85%"
-      },
-      {
-        "name": "AWS",
-        "level": "40%"
-      },
-      {
-        "name": "Google Cloud",
-        "level": "60%"
-      }
-    ],
     "database": [
+      {
+        "name": "MongoDB",
+        "level": "80%"
+      },
       {
         "name": "POSTGRESQL",
         "level": "30%"
       },
       {
-        "name": "MYSQL",
+        "name": "MySQL",
         "level": "50%"
-      },
-      {
-        "name": "MongoDB",
-        "level": "80%"
-      }
-    ]
-  },
-  "work": {
-    "projects": [
-      {
-        "title": "M.E.R.N Template",
-        "category": "A template for building a fast MERN codebase",
-        "image": "mern.jpg",
-        "url": "https://github.com/calvinqc/MERN-template"
-      },
-      {
-        "title": "Sorting Algorithm",
-        "category": "Java Sorting Algorithm Implementation",
-        "image": "sorting.jpg",
-        "url": "https://github.com/calvinqc/Nodejs-Server-Template"
-      },
-      {
-        "title": "Degree Planning Assistant",
-        "category": "A web app that helps students plan their college degree.",
-        "image": "plan.jpg",
-        "url": "https://github.com/ellamaolson/Degree-Planning-Assistant"
       }
     ]
   }

@@ -1,9 +1,4 @@
 import React, { Component } from 'react';
-import { connect } from 'react-redux';
-import { bindActionCreators } from 'redux';
-import { Redirect, withRouter } from 'react-router-dom';
-
-import { contact } from '../api/contact.api';
 
 class Contact extends Component {
   constructor() {
@@ -25,11 +20,6 @@ class Contact extends Component {
   onClick = e => {
     e.preventDefault();
     const { email, subject, message } = this.state;
-    this.props.contact({
-      email,
-      subject,
-      message,
-    });
   };
 
   render() {
@@ -189,16 +179,4 @@ class Contact extends Component {
   }
 }
 
-// Store
-function mapStateToProps(state) {
-  return {
-    contact: state.contact,
-  };
-}
-function matchDispatchToProps(dispatch) {
-  return bindActionCreators({ contact }, dispatch);
-}
-export default connect(
-  mapStateToProps,
-  matchDispatchToProps
-)(withRouter(Contact));
+export default Contact;
