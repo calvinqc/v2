@@ -117,7 +117,7 @@ class Experience extends Component {
           <div className="ten columns main-col">{work}</div>
         </div>
 
-        <div className="row skill">
+        {/* <div className="row skill">
           <div className="three columns header-col">
             <h1>
               <br></br>
@@ -185,7 +185,7 @@ class Experience extends Component {
               <ul className="skills">{database}</ul>
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
     );
   }

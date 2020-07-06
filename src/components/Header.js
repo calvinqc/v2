@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Typed from 'react-typed';
 
 class Header extends Component {
   render() {
@@ -41,48 +42,52 @@ class Header extends Component {
               </a>
             </li>
 
-            <li>
+            {/* <li>
               <a className="smoothscroll" href="#work">
                 Work
               </a>
-            </li>
+            </li> */}
 
             <li className="current">
               <a className="center-logo smoothscroll" href="#home">
                 <img id="nav-logo" src="images/logo5.png" />
-                {/* QC */}
               </a>
             </li>
 
-            <li>
+            {/* <li>
               <a className="smoothscroll" href="#contact">
                 Contact
               </a>
+            </li> */}
+
+            <li>
+              <a href="https://github.com/calvinqc">Github</a>
             </li>
 
             <li>
-              <a className="smoothscroll" href="https://github.com/calvinqc">
-                Github
-              </a>
-            </li>
-
-            <li>
-              <a href="https://medium.com/@calvinqc">Blogs</a>
+              <a href="https://medium.com/@calvinqc">Medium</a>
             </li>
           </ul>
         </nav>
 
         <div className="row banner">
           <div className="banner-text">
-            <h3 id="hello"> Hello, my name is</h3>
-            <h1 className="responsive-headline">{name}</h1>
+            <h3> Hi there, welcome to the Q.C!</h3>
+            <h1 className="responsive-headline" id="hello">
+            <Typed
+                strings={["Software Engineer.", "Back-end Developer", "Tech Writer", "Traveler"]}
+                typeSpeed={45}
+                backSpeed={30}
+                loop
+              />
+            </h1>
             <h3>
-              I'm a graduating student with{' '}
-              <span>3 years of extensive full-stack development </span>at PayPal
-              & Startup, focusing on web services, scaling, database, and
-              infrastructure. Capable of picking up new skills to ship scaling
-              apps to production quickly. Seeking for Fall 2020 Co-op and
-              Full-time Software Engineering starting Jan 2021.
+            My name is <span id="hello">Calvin Nguyen</span>. I'm a graduating student with{' '}
+              <span id="hello">3 years of extensive full-stack development </span>, building product from prototype to production quickly,
+              focusing on web services, scaling, database, and infrastructure.
+              Capable of picking up new skills to ship scaling
+              apps to production quickly. Seeking for <span id="hello">Fall 2020 Co-op &
+              Full-time Software Engineering in Jan 2021.</span>
             </h3>
             <hr />
             <ul className="social">{networks}</ul>

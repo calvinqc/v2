@@ -7,7 +7,6 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import About from '../components/About';
 import Experience from '../components/Experience';
-import Contact from '../components/Contact';
 
 class HomePage extends Component {
   constructor(props) {
@@ -44,7 +43,6 @@ class HomePage extends Component {
         <Header data={resumeData.main} />
         <About data={resumeData.main} />
         <Experience data={resumeData.Experience} />
-        {/* <Contact data={resumeData.main} /> */}
         <Footer data={resumeData.main} />
       </div>
     );

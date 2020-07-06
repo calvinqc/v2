@@ -63,21 +63,26 @@
         "title": "Full-stack Software Engineer",
         "years": "Dec. 2008 - Present <> Part-time",
         "description": [
-          "Working directly with CTO to initiate the use of micro-services for managing infrastructure using Golang, Node, gRPC, REST, and Swagger.",
-          "Building a real-time notification for end-to-end users with SocketIO in Node.js and Golang, Redis Pub/Sub, and Cloud Functions for handling multiple uploading files.",
-          "Built/ deployed a Swift prototype to TestFlight",
-          "Created and deployed React &amp; Node on Cloud Storage and Compute Engine using Docker/Nginx, and Webpack."
+          "Developing micro-services infrastructure using Go, Node, gRPC, REST.",
+          "Maintaining front-end and server on Cloud Storage, and Compute Engine.",
+          "Co-managing 2 SW interns to support web dashboard UI.",
+          "Optimized server performance with Node clusters to handle APIs concurrently.",
+          "Built a real-time notification with SocketIO, Redis Pub/Sub, and Firebase.",
+          "Reduced 45% cost of deploying and updating frontend dashboard.",
+          "Created and deployed web app from prototype to production in 6 months."
         ]
       },
       {
         "company": "PayPal Inc.",
         "title": "Software Engineer",
-        "years": "June 2019 - Aug. 2019 <> Internship",
+        "years": "June 2018 - Aug. 2019 <> Internship",
         "description": [
-          "Pioneered iOS SDK with Bluetooth, Wi-Fi APIs for PayPal Here products",
-          "Built iOS libraries to develop EMV, Contactless Card Handler with mPOS devices using Swift.",
-          "Boosted testing experience of mPOS device faster by 3x in iOS and Android",
-          "Hands-on card processing experience with EMV/Contactless/Magstripe cards"
+          "Built iOS libraries to develop Contactless Card Handler using Swift.",
+          "Boosted testing experience of mPOS device faster by 3x in iOS and Android.",
+          "Worked directly with Genessa Nannini to build and realease onCampus, collecting data of on-campus events for leaders.",
+          "Developed UI using Cordova, HTML/ CSS/ JavaScript/ Mustache.",
+          "Intensive back-end development with Kraken.js, PostgreSQL. ",
+          "Experience with Use-Case, Class and Sequence diagrams using UML."
         ]
       },
       {
@@ -89,18 +94,6 @@
           "Featured on Top Writer of TheStartup - Largest Medium's publication.",
           "Received 50+ subscribers to the 'I Grow With Startups' series.",
           "I wrote about a variety of Tech tutorials, news, tips and tricks on Server-side programming for developers."
-        ]
-      },
-      {
-        "company": "PayPal Inc.",
-        "title": "Full-stack Software Engineer",
-        "years": "June. 2018 - Aug 2018 <> Internship",
-        "description": [
-          "Worked directly with Genessa Nannini to build and deploy onCampus, collecting data of on-campus events' involvement.",
-          "Intensive back-end development with Kraken.js, PostgreSQL, and Google Proximity API, Estimote Beacon.",
-          "Designed/developed UI using Apache Cordova, HTML/CSS/JavaScript",
-          "Collected data of 2000+ employees to enhance on-campus experience",
-          "Experience with Use-Case design, Class and Sequence diagrams using UML."
         ]
       },
       {
