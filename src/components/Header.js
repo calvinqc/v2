@@ -54,12 +54,6 @@ class Header extends Component {
               </a>
             </li>
 
-            {/* <li>
-              <a className="smoothscroll" href="#contact">
-                Contact
-              </a>
-            </li> */}
-
             <li>
               <a href="https://github.com/calvinqc">Github</a>
             </li>
@@ -74,20 +68,26 @@ class Header extends Component {
           <div className="banner-text">
             <h3> Hi there, welcome to the Q.C!</h3>
             <h1 className="responsive-headline" id="hello">
-            <Typed
-                strings={["Software Engineer.", "Back-end Developer", "Tech Writer", "Traveler"]}
+              <Typed
+                strings={['Back-end Engineer', 'Tech Writer', 'Traveler']}
                 typeSpeed={45}
                 backSpeed={30}
                 loop
               />
             </h1>
             <h3>
-            My name is <span id="hello">Calvin Nguyen</span>. I'm a graduating student with{' '}
-              <span id="hello">3 years of extensive full-stack development </span>, building product from prototype to production quickly,
-              focusing on web services, scaling, database, and infrastructure.
-              Capable of picking up new skills to ship scaling
-              apps to production quickly. Seeking for <span id="hello">Fall 2020 Co-op &
-              Full-time Software Engineering in Jan 2021.</span>
+              My name is <span id="hello">Calvin Nguyen</span>. I'm a graduating
+              student with{' '}
+              <span id="hello">
+                3 years of extensive full-stack development
+              </span>
+              , building product from prototype to production quickly, focusing
+              on web services, scaling, database, and infrastructure. Capable of
+              picking up new skills to ship scaling apps to production quickly.
+              Seeking for{' '}
+              <span id="hello">
+                Full-time Software Engineering role in Jan 2021.
+              </span>
             </h3>
             <hr />
             <ul className="social">{networks}</ul>
